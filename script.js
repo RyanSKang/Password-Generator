@@ -55,7 +55,7 @@ function myPrompts(){
 // Step 3: Generate a password that matches the selected the criteria
 
 var generateBtn = document.querySelector("#generate");
-function generatePassword(){
+function generatePassword(hello){
 console.log("Password Generated")
 }
 // Step 4: Display the password within text area
