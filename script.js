@@ -24,6 +24,7 @@ var numberArr=['0','1','2','3','4','5','6','7','8','9'];
 //    -Password length 8<129
 //    -Needs to confirm whether to include lowercase,uppercase,numeric, and or special characters
 function myPrompts(){
+  choiceArr= [];
   
   characterLength= parseInt(prompt('How many Characters do you want your password to have? Min: 8 characters Max: 128 characters'));
   
@@ -55,18 +56,32 @@ function myPrompts(){
 // Step 3: Generate a password that matches the selected the criteria
 
 var generateBtn = document.querySelector("#generate");
-function generatePassword(hello){
+function generatePassword(){
 console.log("Password Generated")
+
+var newPassword= "";
+for(var i=0; i <characterLength; i++){
+  var randomPassword= Math.floor(Math.random() * choiceArr.length)
+  password= password + choiceArr(newPassword);
+  }
+  return password;
 }
 // Step 4: Display the password within text area
 
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  var desiredPrompts= myPrompts();
+  passwordText.value = newPassword;
 
-  passwordText.value = password;
+  if(desiredPrompts){
+    var newpassword = generatePassword();
+    var passwordText = document.querySelector("#password");
+  
+  } else{
+    passwordText.value="";
+  }
+
 
 }
 
