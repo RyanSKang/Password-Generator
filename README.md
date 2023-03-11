@@ -43,7 +43,7 @@ Screenshot of my JavaScript Code with Comments of Steps:
 
 ![Screenshot 2023-03-10 at 7 18 10 PM](https://user-images.githubusercontent.com/124969918/224460050-c6f15292-dc3d-4841-81ea-a917ce06280c.png)
 
-##Credits
+## Credits
 I did not use a 1 on 1 tutor this week due to my own negligence 
 
 However I did use this youtube video to help get my project started: 
