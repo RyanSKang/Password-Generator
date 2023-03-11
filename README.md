@@ -15,7 +15,7 @@ This application can be used in order to create a Password that matches certain 
 
 Screenshots of my web application:
 
-<img width="755" alt="Screenshot 2023-03-10 at 7 14 26 PM" src="https://user-images.githubusercontent.com/124969918/224459897-c1f3f021-4afa-4bac-9e15-3c04ac87f108.png">
+![Screenshot 2023-03-10 at 9 42 54 PM](https://user-images.githubusercontent.com/124969918/224465319-77e439d8-bd6c-4af5-8082-c195596b372a.png)
 
 <img width="448" alt="Screenshot 2023-03-10 at 7 14 42 PM" src="https://user-images.githubusercontent.com/124969918/224459918-7724d388-b1e5-4cce-9e54-5ff192f25aeb.png">
 
