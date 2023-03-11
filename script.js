@@ -38,7 +38,7 @@ function writePassword() {
 // Step 3: Generate a password that matches the selected the criteria
 
 function generatePassword(){
-  // console.log("Password Generated")
+  console.log("Password Generated")
   var password= "";
   for(var i=0; i <characterLength; i++){
     var randomPassword= Math.floor(Math.random() * choiceArr.length);
