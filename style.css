@@ -12,9 +12,13 @@ body,
   padding: 0;
 }
 
+.wrapper h1{
+  color: white;
+}
+
 body {
   font-family: sans-serif;
-  background-color: rgb(1,180,180);
+  background-image: linear-gradient(to right, #43cea2,#185a9d)
 }
 
 .wrapper {
@@ -32,9 +36,9 @@ header {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  border-radius: 15px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, .5) 0px 4px 10px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
@@ -49,6 +53,7 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
+
 
 .card-body {
   min-height: 100px;
@@ -84,7 +89,8 @@ header {
   border: none;
   background-color: rgb(1,180,180);
   border-radius: 50px;
-  color: #edf0f1;
+  color:  hsl(206, 17%, 28%);
+  font-weight: 500;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -97,11 +103,14 @@ header {
 
 button:hover{
   background-color: rgb(1, 180, 180,.85);
+  color: white;
+  transition: all 0.3s ease 0s;
 }
 
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
+
 }
 
 .float-right {
@@ -123,7 +132,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px solid #c0c7cf;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
