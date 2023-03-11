@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #2ee3b392;
+  background-color: rgb(1,180,180);
 }
 
 .wrapper {
@@ -50,10 +50,6 @@ header {
   height: 2px;
 }
 
-textarea{
-  margin-left: auto;
-  margin-right: auto;
-}
 .card-body {
   min-height: 100px;
 }
@@ -86,11 +82,9 @@ textarea{
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
-  border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
-  color: hsl(0, 0%, 100%);
+  background-color: rgb(1,180,180);
+  border-radius: 50px;
+  color: #edf0f1;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -98,11 +92,11 @@ textarea{
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover{
-  background-color: hsl(360, 91%, 36%,.95);
-  font-weight: bold;
+  background-color: rgb(1, 180, 180,.85);
 }
 
 button[disabled] {

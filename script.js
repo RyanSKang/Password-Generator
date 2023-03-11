@@ -1,6 +1,6 @@
 // Additional Code for fun here
 var area=document.querySelector("textarea")
-area.setAttribute("style", "font-size:25px; font-weight:bold;")
+area.setAttribute("style", "font-size:25px; font-weight:500;")
 
 // Assign Variables and Arrays
 var characterLength = 8;
