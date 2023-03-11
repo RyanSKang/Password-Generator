@@ -47,7 +47,7 @@ Screenshot of my JavaScript Code with Comments of Steps:
 I did not use a 1 on 1 tutor this week due to my own negligence 
 
 However I did use this youtube video to help get my project started: 
-<a href="https://www.youtube.com/watch?v=x4HUaiazDes">Homework Start-up Guide</a>
+<a href="https://www.youtube.com/watch?v=x4HUaiazDes" target="_blank">Homework Start-up Guide</a>
 
 ## License
 
